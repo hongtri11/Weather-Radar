@@ -34,7 +34,7 @@ if (navigator.geolocation) {
     // Change the longitude and latitude 
 
     //Use alternative proxy to fix the local host access API error
-    const api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&${key}`;
+    const api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&${key}`;
     // Fetch the API to get information (GET REQUEST)
     // Wait to get all the data from the API call using .then
     // After getting all the information, converting them into JSON using json()
