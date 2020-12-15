@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Full Screen */
+  height: 100vh; 
+  display: flex;
+  /* Main axis changed depending on the flex-direction */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* Change later */
+  background: #5680e9;
+  font-family: "Varela";
+  color: #000;
+}
+
+.header {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700px;
+}
+
+
+.container {
+  width: 30%;
+  height: 50%;
+  border: solid 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#c1c8e4;
+  border-radius: 20px;
+
+}
+
+
+.location, .temp {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  /* Change main-axis */
+  justify-content: center;
+  /* Change cross-axis */
+  align-items: center;
+}
+
+.temp {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+
+.location {
+  justify-content: center;
+}
+
+.degree-section {
+  display: flex;
+  cursor: pointer;
+}
+.degree-section span {
+  margin: 27px 0px;
+  font-size: 55px;
+}
+
+.degree-section h2 {
+  font-size: 80px;
+}
+
+
+.temp-description {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.temp-description {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.convert {
+  font-weight: lighter;
+}
