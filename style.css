@@ -136,21 +136,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .header {
-    margin-bottom: 30px;
-    font-size: 40px;
-  }
-  .container {
-    width: 50%;
-    height: 50%;
-  }
-  .location, .temp {
-    height: 30vh;
-    width: 70%;
-  }
-  .location h1 {
-    font-size: 25px;
-  }
   .temp-description {
     font-size: 20px;
     font-weight: bold;
@@ -160,5 +145,12 @@ body {
     font-size: 13px;
     margin-left: 23px;
     margin-top: 10px;
+  }
+}
+
+
+@media screen and (max-width: 388px) {
+  .container {
+    width: 100%;
   }
 }
